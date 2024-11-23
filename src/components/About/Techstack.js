@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -13,7 +12,8 @@ import {
 import {
   SiRedis,
   SiPostgresql,
-  SiGraphql
+  SiGraphql,
+  SiTypescript
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -27,10 +27,27 @@ function Techstack() {
         <DiNodejs />
         <p style={{ fontSize: "18px" }}>Node.js</p>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+        <p style={{ fontSize: "18px" }}>TypeScript</p>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <p style={{ fontSize: "18px" }}>React.js</p>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+        <p style={{ fontSize: "18px" }}>Mysql</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <p style={{ fontSize: "18px" }}>Postgresql</p>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p style={{ fontSize: "18px" }}>MongoDB</p>
@@ -43,15 +60,9 @@ function Techstack() {
         <SiRedis />
         <p style={{ fontSize: "18px" }}>Redis</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-        <p style={{ fontSize: "18px" }}>Postgresql</p>
-      </Col>
+      
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
-        <p style={{ fontSize: "18px" }}>Mysql</p>
-      </Col>
+      
 
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
