@@ -18,24 +18,34 @@ function Home2() {
     <h1 style={{ fontSize: "2.6em" }}>
       LET ME <span className="purple">INTRODUCE</span> MYSELF
     </h1>
-    <p className="home-about-body">
-    I am a passionate backend developer with nearly 2 years of experience in Node.js and SQL, constantly learning new technologies and improving my skills. I have worked on various projects, ranging from backend systems to web technologies, and I am eager to expand my knowledge in Machine Learning and Backend Development. My expertise includes JavaScript, Node.js, and SQL, and I have a keen interest in building scalable and efficient applications. I'm always looking for new challenges and opportunities to grow as a developer. 🤷‍♂️
-      <br />
-      
-      <br />
-      I'm particularly interested in building &nbsp;
-      <i>
-        <b className="purple">web applications</b> and exploring the world of{" "}
-        <b className="purple">machine learning and backend systems.</b>
-      </i>
-      <br />
-      <br />
-      When I'm not coding, I love working with tools like
-      <i>
-        <b className="purple"> React.js, Next.js</b>
-      </i> 
-      and using <b className="purple">Node.js</b> to bring ideas to life.
-    </p>
+  <p className="home-about-body">
+  I’m a <b className="purple">Backend Developer</b> with nearly 2 years of experience crafting 
+  scalable, high-performance applications using <b className="purple">Node.js</b> and <b className="purple">SQL</b>.  
+  My journey started with building small scripts, but quickly evolved into 
+  delivering <b className="purple">production-ready systems</b> that handle real-world challenges. 🚀
+  
+  <br />
+  <br />
+  I thrive on turning complex problems into simple, elegant solutions. 
+  Whether it’s architecting a <b className="purple">secure API</b>, optimizing SQL queries for speed, 
+  or integrating third-party services, I’m obsessed with building things that just work — fast and reliably.
+  
+  <br />
+  <br />
+  Lately, I’ve been expanding my skills into 
+  <i>
+    <b className="purple"> Machine Learning</b> and advanced <b className="purple">backend systems</b>,
+  </i> 
+  blending data-driven intelligence with rock-solid infrastructure.  
+  I also enjoy working with modern frontend tools like <b className="purple">React.js</b> & <b className="purple">Next.js</b> 
+  to create seamless full-stack experiences.
+  
+  <br />
+  <br />
+  Beyond code, I’m constantly chasing new challenges, collaborating with passionate teams, 
+  and pushing myself to deliver impactful products that make a difference.
+</p>
+
   </Col>
   <Col md={4} className="myAvtar">
     <Tilt>

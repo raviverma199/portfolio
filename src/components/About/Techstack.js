@@ -7,13 +7,17 @@ import {
   DiMongodb,
   DiGit,
   DiMysql,
-  DiDocker
+  DiDocker,
+  DiAws
 } from "react-icons/di";
 import {
   SiRedis,
   SiPostgresql,
   SiGraphql,
-  SiTypescript
+  SiTypescript,
+  SiNestjs,
+  SiExpress,
+  SiOracle
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -73,7 +77,29 @@ function Techstack() {
         <SiGraphql />
         <p style={{ fontSize: "18px" }}>GraphQL</p>
       </Col>
- 
+
+     <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+        <p style={{ fontSize: "18px" }}>NestJs</p>
+      </Col>
+
+         <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+        <p style={{ fontSize: "18px" }}>Express</p>
+      </Col>
+
+
+         <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+        <p style={{ fontSize: "18px" }}>AWS</p>
+      </Col>
+
+               <Col xs={4} md={2} className="tech-icons">
+        <SiOracle />
+        <p style={{ fontSize: "18px" }}>Oracle</p>
+      </Col>
+
+
     </Row>
   );
 }
