@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,31 +18,19 @@ function Home2() {
       LET ME <span className="purple">INTRODUCE</span> MYSELF
     </h1>
   <p className="home-about-body">
-  I’m a <b className="purple">Backend Developer</b> with nearly 2 years of experience crafting 
-  scalable, high-performance applications using <b className="purple">Node.js</b> and <b className="purple">SQL</b>.  
-  My journey started with building small scripts, but quickly evolved into 
-  delivering <b className="purple">production-ready systems</b> that handle real-world challenges. 🚀
+  I'm a <b className="purple">Backend Developer with 3.6+ years of experience</b> building, architecting, and scaling backend applications using <b className="purple">Node.js, TypeScript, and SQL & NoSQL databases</b>.
   
   <br />
   <br />
-  I thrive on turning complex problems into simple, elegant solutions. 
-  Whether it’s architecting a <b className="purple">secure API</b>, optimizing SQL queries for speed, 
-  or integrating third-party services, I’m obsessed with building things that just work — fast and reliably.
+  My experience covers backend architecture, API development, database design, and performance optimization. I work on building services that can handle growing traffic, increased concurrent requests, and changing application demands. This includes optimizing database queries and indexing, implementing Redis caching, and improving how backend services process and manage workloads.
   
   <br />
   <br />
-  Lately, I’ve been expanding my skills into 
-  <i>
-    <b className="purple"> Machine Learning</b> and advanced <b className="purple">backend systems</b>,
-  </i> 
-  blending data-driven intelligence with rock-solid infrastructure.  
-  I also enjoy working with modern frontend tools like <b className="purple">React.js</b> & <b className="purple">Next.js</b> 
-  to create seamless full-stack experiences.
+  I've also worked with <b className="purple">RabbitMQ for asynchronous processing, background jobs, and event-driven workflows, WebSockets for real-time communication, and Docker for containerization</b>. Alongside development, I have hands-on experience with <b className="purple">AWS, CI/CD pipelines, and production deployments</b>.
   
   <br />
   <br />
-  Beyond code, I’m constantly chasing new challenges, collaborating with passionate teams, 
-  and pushing myself to deliver impactful products that make a difference.
+  I focus on building scalable backend architectures, identifying performance bottlenecks, optimizing resource utilization, and ensuring services remain reliable as traffic and business requirements grow.
 </p>
 
   </Col>
@@ -84,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ravi-verma-lindedin-profile/"
+                  href="https://www.linkedin.com/in/ravi-verma-dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
